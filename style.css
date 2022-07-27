@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.menus-list{
+    list-style: none;
+}
+
+.nav-links{
+    font-size:18px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+.nav-links i {
+    color:red;
+}
+
+.logo-img{
+    width:100px;
+}
+.navbar-div {
+    height:65px
+}
+
+h3.primary-heading {
+     font-size: 2.5707rem;
+    color: rgb(45, 55, 72);
+    font-weight: 700;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+
+h3.secondary-heading{
+    font-size: 2.5707rem;
+    color: rgb(45, 55, 72);
+    font-weight: 700;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+
+h3.secondary-heading span,.my-role{
+    color: #1976D2;
+    font-family: sans-serif;
+}
+
+.my-role{
+    font-size: 2.5707rem;
+    /* color: rgb(45, 55, 72); */
+    font-weight: 700;
+    line-height: 1.167;
+    letter-spacing: 0em;
+    margin: 20px 0;
+}
+
+.link-one{
+    background-color: rgb(45, 55, 72);
+    width: 48px;
+    height: 48px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 50%;
+    margin-right: 15px
+}
+.link-one:hover,.contact-me:hover{
+    box-shadow: 0 0 15px #1976d2;
+    
+    transition: all .5s ease-in-out 0s;
+    transform: scale(1.08);
+}
+
+.link-one a i {
+    font-size:30px;
+}
+.contact-me{
+    color: #FFFFFF;
+    width: 145px;
+    height: 45px;
+    font-size: 0.9rem;
+    font-family: Roboto;
+    font-weight: bold;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 50px;
+    text-transform: none;
+    background-color: #1976D2;
+    border: none;
+}
+
+.contact-me:first-child{
+    margin-right: 20px;
+}
+
+img.hero-img {
+    width: 350px;
+}
+
+h2.whatdo-heading {
+    font-size: 2.5707rem;
+    font-family: Pacifico;
+}
+
+img.whatdo-img {
+    width: 400px;
+}
+
+.whatdo-secndry-title {
+    margin: 0px 0px 16px;
+    font-size: 1.125rem;
+    color: rgb(100, 110, 115);
+    font-weight: 300;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: left;
+}
+
+span.flash-icon {
+    color: #FF822D;
+    margin-right: 10px;
+}
+
+.desc-one{
+    margin: 0px 0px 16px;
+    font-size: 1.125rem;
+    color: rgb(100, 110, 115);
+    font-weight: 300;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: left;
+}
+
