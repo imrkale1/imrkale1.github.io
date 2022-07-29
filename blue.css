@@ -423,3 +423,40 @@ li.tech-name img {
 .footer-div{
     border-top: 1px solid #fff;
 }
+
+
+@media only screen and (max-width: 700px) {
+
+    img.hero-img {
+        width: 360px!important;
+    }
+
+    .my-role {
+        font-size: 2.5707rem!important;
+    }
+
+    h3.secondary-heading {
+        font-size: 2.3rem!important;
+    }
+    @keyframes typewriter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 350px;
+        }
+      }
+
+      h2.proje-title {
+        font-size: 35px;
+      }
+    
+}
+
+
+.logo-div div{
+    color: #1976D2;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Pacifico;
+}
